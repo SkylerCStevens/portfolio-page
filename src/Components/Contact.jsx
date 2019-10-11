@@ -17,11 +17,11 @@ const Contact = () => {
                 <label className="form-label" for="user_name">NAME</label>
                 <input className="form-control" name="name" id="user_name" placeholder="Name" required></input>
                 
-                <label className="form-label" name="email" for="user_email">EMAIL</label>
-                <input className="form-control" id="user_email" type="email" placeholder="E-mail" required></input>
+                <label className="form-label" for="user_email">EMAIL</label>
+                <input className="form-control" name="email" id="user_email" type="email" placeholder="E-mail" required></input>
 
-                <label className="form-label" name="message" for="user_message">MESSAGE</label>
-                <textarea className="form-control" id="user_message" type="text" placeholder="Message" required></textarea>
+                <label className="form-label" for="user_message">MESSAGE</label>
+                <textarea className="form-control" name="message" id="user_message" type="text" placeholder="Message" required></textarea>
 
                 <input type="hidden" name="form-name" value="contact" />
 
