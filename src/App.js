@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Home from './Components/Home';
 import Nav from './Components/Nav';
 import About from './Components/About';
@@ -9,16 +9,16 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <React.Fragment>
       <Home />
       <Nav />
       <About />
       <Portfolio />
       <Contact />
       <Footer />
-    </div>
+    </React.Fragment>
   );
 }
 
