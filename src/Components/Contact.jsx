@@ -14,7 +14,7 @@ const Contact = () => {
                 <a href="https://www.linkedin.com/in/skyler-stevens-789115195/" target="_blank"><img className="icon" src="https://cdn0.iconfinder.com/data/icons/global-top-brands/430/linkedin-logo-1-512.png" alt="LinkedIn icon"></img></a>
             </div>
             <form name="contact" method="POST" className="contact-form column-right">
-                <label className="form-label mt-3" for="user_name">NAME</label>
+                <label className="form-label" for="user_name">NAME</label>
                 <input className="form-control" name="name" id="user_name" placeholder="Name" required></input>
                 
                 <label className="form-label mt-3" for="user_email">EMAIL</label>
