@@ -25,7 +25,7 @@ const Contact = () => {
 
                 <input type="hidden" name="form-name" value="contact" />
 
-                <button className="btn btn-light" type="submit" value="submit">SEND</button>
+                <button className="btn btn-light mt-2" type="submit" value="submit">SEND</button>
             </form>
             </div>
             </div>
