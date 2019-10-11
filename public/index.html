@@ -31,15 +31,15 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+      </form>
+      <form name="contact" netlify netlify-honeypot="bot-field" class="contact-form column-right" hidden>
+          <input class="form-control" id="user_name" type="text" placeholder="Name"></input>
+          <input class="form-control" id="user_email" type="email" placeholder="E-mail"></input>
+          <textarea class="form-control" id="user_message" type="text" placeholder="Message"></textarea>
+      </form>
   </body>
 </html>
