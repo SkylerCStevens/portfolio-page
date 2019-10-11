@@ -4,46 +4,78 @@ html{
 body{
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
-  color: #1C1D21;
+  color: #020E1C;
 }
 a{
   text-decoration: none;
-  color: #303238;
+  color: #031933;
 }
 a:hover{
-  color: #1C1D21;
+  color: #020E1C;
 }
 ul{
   list-style-type: none;
 }
-img{
-  width: 400px;
-  height: 550px;
+.page-header{
+  text-align:center;
+  font-weight: 800;
+  font-size: 3.5rem;
 }
+.about, .portfolio, .contact{
+  padding-top: 75px;
+}
+.btn-link{
+  color: #020E1C;
+  text-decoration: none;
+}
+.btn-link:hover{
+  color: rgba(179, 216, 235,0.9);
+  text-decoration: none;
+}
+.column-left{
+  width:45%;
+  float: left;
+  margin-top: 10px;
+}
+.column-right{
+  width:55%;
+  float: right;
+  margin-bottom: 100px;
+}
+
+/* Home */
 .home{
-  margin: -18px 0px 0px 0px;
   width: 100%;
-  height: 820px;
-  background-image:  linear-gradient(to bottom, rgba(169,222,225, 0.2), rgba(169,222,225,0.2)), url('https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  height: 800px;
+  background-image:  linear-gradient(to bottom, rgba(255,255,255, 1), rgba(255,255,255,0.7)), url('https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .home-middle{
-  margin: 250px 400px;
+  padding: 200px 100px 0px 100px;
+}
+.name-p, .intro-p{
+  font-size: 3rem;
+  width: 80%;
+  border-radius: 5%;
 }
 .welcome-p{
-  padding: 30px 10px;
-  text-align: center;
-  font-size: 2rem;
-  background-color: white;
-  width: 600px;
+  padding: 30px 0px;
+}
+.intro-p{
+  font-size: 1.75rem;
+}
+.name{
+  font-weight: bold;
 }
 .view-more{
   padding: 10px 15px;
-  margin-left: 200px;
   border: 1px grey solid;
   font-size: 1.5rem;
-  background-color: rgba(255,255,255,0.5);
+  background-color: #020E1C;
+  color: white;
+  font-weight: bold;
 }
 .view-more:hover{
   background-color: white
@@ -52,63 +84,92 @@ img{
   background-color: gray;
 }
 
+/* Nav */
 .nav{
-  background-color: rgba(240, 255, 255,0.9);
+  background-color: rgba(179, 216, 235,0.9);
   position: sticky;
   top: 0;
-  padding: 5px 5px;
+  padding: 15px 15px 0px 15px;
+  z-index: 9999;
 
 }
 .nav-name{
   padding: 5px 5px;
   display: inline;
-  border: 1px lightgray solid;
   font-weight: 400;
   font-size: 1.5rem;
-  background-color: rgba(255,255,255,0.6);
+  font-weight: bold;
   border-radius: 5%;
 }
 .nav-btn{
   display: inline;
   padding: 5px 15px;
   font-size: 1.25rem;
-  color: #1C1D21;
+  font-weight: bold;
+  color: #020E1C;
 }
 .nav-btn a{
   text-decoration: none;
 }
 .nav-btn:hover{
-  background-color: rgba(255,255,255,0.6);
-  border: 1px solid #1C1D21;
+  background-color: white;
 }
 
-.page-header{
-  text-align:center;
-}
-
-.column-left{
-  width:40%;
-  float: left;
-}
-.column-right{
-  width:60%;
-  float: right;
-  margin-bottom: 100px;
-}
-.about, .portfolio, .contact{
-  padding-top: 75px;
-}
+/* About */
 .about p{
   line-height: 2;
 }
 .about img, .about p{
   margin-top: 25px;
 }
+img{
+  width: 475px;
+  height: 650px;
+}
 
+/* Portfolio */
 .portfolio{
   clear: both;
   background-color: rgb(245, 255, 255);
   width: 100%;
+}
+.image-container {
+  position: relative;
+}
+.project-img {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width: 500px;
+  height: 350px;
+  margin: 10px 15px;
+  box-shadow: 1px 1px #B5B9C4;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.image-container:hover .project-img {
+  opacity: 0.3;
+}
+.image-container:hover .middle {
+  opacity: 1;
+}
+.text {
+  background-color: white;
+  color: #020E1C;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.image-row{
+  padding-bottom: 100px;
+  margin: 0 auto;
 }
 .tech-list{
   margin-top: 50px;
@@ -117,7 +178,58 @@ img{
   display: inline;
   padding: 5px 15px;
 }
-#portfolio, #contact{
-  height: 1000px;
+.project-link-container{
+  margin: 0 auto;
+}
+.project-link{
+  margin-right: 30px;
 }
 
+/* Contact */
+.contact{
+  height: 92vh;
+  background-color: #031933;
+  color: white;
+  width: 100%;
+  text-align: left;
+}
+.contact-content{
+  margin-top: 20vh;
+}
+.name-address{
+  float:left;
+}
+.contact-name{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.contact-p{
+  font-size: 1.2rem;
+}
+.contact-form{
+  float:right;
+  width: 50%;
+  padding-left: 5%;
+}
+
+.form-label{
+  font-weight: bold;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  background-color:white;
+  border-radius: 10%;
+  margin-right: 20px;
+}
+
+/* Footer */
+footer{
+  clear: both;
+  background-color: #020E1C;
+  color: rgb(204, 236, 255);
+  font-size: .85rem;
+}
+.update{
+  float: right;
+}
