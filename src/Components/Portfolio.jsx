@@ -1,6 +1,7 @@
 import React from 'react';
 import guessingGame from '../images/guessing-game.png';
 import ecommerce from '../images/ecommerce.png';
+import commentBox from '../images/comment-box.png';
 
 const Portfolio = () => {
     return (
@@ -37,6 +38,17 @@ const Portfolio = () => {
                     </div>
                     </div>
                     <div className="image-container text-center">
+                <img className="project-img" src={commentBox} alt="Screenshot of Comment Box App"></img>
+                    <div className="middle">
+                        <p className="text">Comment Box</p>
+                        <p className="text">React</p>
+                        <div className="project-link-container">
+                        <a className="project-link" href="https://github.com/SkylerCStevens/comment-box/tree/master" target="_blank">GitHub</a>
+                        <a className="project-link" href="https://react-comment-box.netlify.com" target="_blank">Netlify</a>
+                        </div>
+                    </div>
+                    </div>
+                    {/*<div className="image-container text-center">
                 <img className="project-img" src="https://www.cabarethotspot.com/wp-content/uploads/2018/08/ComingSoon-1280x640.jpg" alt="This is a project"></img>
                     <div className="middle">
                         <p className="text"></p>
@@ -79,18 +91,7 @@ const Portfolio = () => {
                         <a className="project-link" href="">Netlify</a>
                         </div>
                     </div>
-                    </div>
-                    <div className="image-container text-center">
-                <img className="project-img" src="https://www.cabarethotspot.com/wp-content/uploads/2018/08/ComingSoon-1280x640.jpg" alt="This is a project"></img>
-                    <div className="middle">
-                        <p className="text"></p>
-                        <p className="text"></p>
-                        <div className="project-link-container">
-                        <a className="project-link" href="">GitHub</a>
-                        <a className="project-link" href="">Netlify</a>
-                        </div>
-                    </div>
-                    </div>
+                    </div> */}
             </div>
             </div>
             
