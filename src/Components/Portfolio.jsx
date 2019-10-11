@@ -20,8 +20,8 @@ const Portfolio = () => {
                         <p className="text">Number Guessing Game</p>
                         <p className="text">ReactJS</p>
                         <div className="project-link-container">
-                        <a className="project-link" href="https://github.com/SkylerCStevens/number-guessing-game">GitHub</a>
-                        <a className="project-link" href="https://react-number-guessing-game.netlify.com/">Netlify</a>
+                        <a className="project-link" href="https://github.com/SkylerCStevens/number-guessing-game" target="_blank">GitHub</a>
+                        <a className="project-link" href="https://react-number-guessing-game.netlify.com/" target="_blank">Netlify</a>
                         </div>
                     </div>
                     </div>
