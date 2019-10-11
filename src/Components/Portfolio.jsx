@@ -1,17 +1,97 @@
 import React from 'react';
+import guessingGame from '../images/guessing-game.png';
 
 const Portfolio = () => {
     return (
         <div className="portfolio" id="portfolio">
             <div className="container">
-            <h2 className="page-header">Projects</h2>
+            <h2 className="page-header">PROJECTS</h2>
             <ul className="tech-list text-center">
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>ReactJS</li>
-                <li>MySQL</li>
-                <li>NodeJS</li>
+                <li><button className="btn btn-link tech-filter">HTML/CSS</button></li>
+                <li><button className="btn btn-link tech-filter">JavaScript</button></li>
+                <li><button className="btn btn-link tech-filter">ReactJS</button></li>
+                <li><button className="btn btn-link tech-filter">MySQL</button></li>
+                <li><button className="btn btn-link tech-filter">NodeJS</button></li>
             </ul>
+            <div className="row image-row">
+            <div className="image-container text-center">
+                <img className="project-img" src={guessingGame} alt="This is a project"></img>
+                    <div className="middle">
+                        <p className="text"></p>
+                        <p className="text"></p>
+                        <div className="project-link-container">
+                        <a className="project-link" href="">GitHub</a>
+                        <a className="project-link" href="">Netlify</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="image-container text-center">
+                <img className="project-img" src={guessingGame} alt="This is a project"></img>
+                    <div className="middle">
+                        <p className="text"></p>
+                        <p className="text"></p>
+                        <div className="project-link-container">
+                        <a className="project-link" href="">GitHub</a>
+                        <a className="project-link" href="">Netlify</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="image-container text-center">
+                <img className="project-img" src={guessingGame} alt="This is a project"></img>
+                    <div className="middle">
+                        <p className="text"></p>
+                        <p className="text"></p>
+                        <div className="project-link-container">
+                        <a className="project-link" href="">GitHub</a>
+                        <a className="project-link" href="">Netlify</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="image-container text-center">
+                <img className="project-img" src={guessingGame} alt="This is a project"></img>
+                    <div className="middle">
+                        <p className="text"></p>
+                        <p className="text"></p>
+                        <div className="project-link-container">
+                        <a className="project-link" href="">GitHub</a>
+                        <a className="project-link" href="">Netlify</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="image-container text-center">
+                <img className="project-img" src={guessingGame} alt="This is a project"></img>
+                    <div className="middle">
+                        <p className="text"></p>
+                        <p className="text"></p>
+                        <div className="project-link-container">
+                        <a className="project-link" href="">GitHub</a>
+                        <a className="project-link" href="">Netlify</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="image-container text-center">
+                <img className="project-img" src={guessingGame} alt="This is a project"></img>
+                    <div className="middle">
+                        <p className="text"></p>
+                        <p className="text"></p>
+                        <div className="project-link-container">
+                        <a className="project-link" href="">GitHub</a>
+                        <a className="project-link" href="">Netlify</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="image-container text-center">
+                <img className="project-img" src={guessingGame} alt="This is a project"></img>
+                    <div className="middle">
+                        <p className="text"></p>
+                        <p className="text"></p>
+                        <div className="project-link-container">
+                        <a className="project-link" href="">GitHub</a>
+                        <a className="project-link" href="">Netlify</a>
+                        </div>
+                    </div>
+                    </div>
+            </div>
             </div>
             
         </div>
