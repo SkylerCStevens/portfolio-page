@@ -15,13 +15,13 @@ const Portfolio = () => {
             </ul>
             <div className="row image-row">
             <div className="image-container text-center">
-                <img className="project-img" src="https://www.cabarethotspot.com/wp-content/uploads/2018/08/ComingSoon-1280x640.jpg" alt="This is a project"></img>
+                <img className="project-img" src={guessingGame} alt="This is a project"></img>
                     <div className="middle">
                         <p className="text"></p>
                         <p className="text"></p>
                         <div className="project-link-container">
-                        <a className="project-link" href="">GitHub</a>
-                        <a className="project-link" href="">Netlify</a>
+                        <a className="project-link" href="https://github.com/SkylerCStevens/number-guessing-game">GitHub</a>
+                        <a className="project-link" href="https://react-number-guessing-game.netlify.com/">Netlify</a>
                         </div>
                     </div>
                     </div>
