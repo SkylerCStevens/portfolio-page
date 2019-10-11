@@ -15,7 +15,7 @@ const Portfolio = () => {
             </ul>
             <div className="row image-row">
             <div className="image-container text-center">
-                <img className="project-img" src={guessingGame} alt="This is a project"></img>
+                <img className="project-img" src="https://www.cabarethotspot.com/wp-content/uploads/2018/08/ComingSoon-1280x640.jpg" alt="This is a project"></img>
                     <div className="middle">
                         <p className="text"></p>
                         <p className="text"></p>
@@ -26,7 +26,7 @@ const Portfolio = () => {
                     </div>
                     </div>
                     <div className="image-container text-center">
-                <img className="project-img" src={guessingGame} alt="This is a project"></img>
+                <img className="project-img" src="https://www.cabarethotspot.com/wp-content/uploads/2018/08/ComingSoon-1280x640.jpg" alt="This is a project"></img>
                     <div className="middle">
                         <p className="text"></p>
                         <p className="text"></p>
@@ -37,7 +37,7 @@ const Portfolio = () => {
                     </div>
                     </div>
                     <div className="image-container text-center">
-                <img className="project-img" src={guessingGame} alt="This is a project"></img>
+                <img className="project-img" src="https://www.cabarethotspot.com/wp-content/uploads/2018/08/ComingSoon-1280x640.jpg" alt="This is a project"></img>
                     <div className="middle">
                         <p className="text"></p>
                         <p className="text"></p>
@@ -48,7 +48,7 @@ const Portfolio = () => {
                     </div>
                     </div>
                     <div className="image-container text-center">
-                <img className="project-img" src={guessingGame} alt="This is a project"></img>
+                <img className="project-img" src="https://www.cabarethotspot.com/wp-content/uploads/2018/08/ComingSoon-1280x640.jpg" alt="This is a project"></img>
                     <div className="middle">
                         <p className="text"></p>
                         <p className="text"></p>
@@ -59,7 +59,7 @@ const Portfolio = () => {
                     </div>
                     </div>
                     <div className="image-container text-center">
-                <img className="project-img" src={guessingGame} alt="This is a project"></img>
+                <img className="project-img" src="https://www.cabarethotspot.com/wp-content/uploads/2018/08/ComingSoon-1280x640.jpg" alt="This is a project"></img>
                     <div className="middle">
                         <p className="text"></p>
                         <p className="text"></p>
@@ -70,7 +70,7 @@ const Portfolio = () => {
                     </div>
                     </div>
                     <div className="image-container text-center">
-                <img className="project-img" src={guessingGame} alt="This is a project"></img>
+                <img className="project-img" src="https://www.cabarethotspot.com/wp-content/uploads/2018/08/ComingSoon-1280x640.jpg" alt="This is a project"></img>
                     <div className="middle">
                         <p className="text"></p>
                         <p className="text"></p>
@@ -81,7 +81,7 @@ const Portfolio = () => {
                     </div>
                     </div>
                     <div className="image-container text-center">
-                <img className="project-img" src={guessingGame} alt="This is a project"></img>
+                <img className="project-img" src="https://www.cabarethotspot.com/wp-content/uploads/2018/08/ComingSoon-1280x640.jpg" alt="This is a project"></img>
                     <div className="middle">
                         <p className="text"></p>
                         <p className="text"></p>
