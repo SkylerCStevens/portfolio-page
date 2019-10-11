@@ -17,8 +17,8 @@ const Portfolio = () => {
             <div className="image-container text-center">
                 <img className="project-img" src={guessingGame} alt="This is a project"></img>
                     <div className="middle">
-                        <p className="text"></p>
-                        <p className="text"></p>
+                        <p className="text">Number Guessing Game</p>
+                        <p className="text">ReactJS</p>
                         <div className="project-link-container">
                         <a className="project-link" href="https://github.com/SkylerCStevens/number-guessing-game">GitHub</a>
                         <a className="project-link" href="https://react-number-guessing-game.netlify.com/">Netlify</a>
