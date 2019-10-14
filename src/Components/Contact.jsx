@@ -5,8 +5,6 @@ import useForm from "react-hook-form";
 const Contact = () => {
     const { register, handleSubmit, errors, reset } = useForm();
 
-    const onSubmit = () => { console.log("Thank you")}
-
     return (
         <div className="contact" id="contact">
             <div className="container">
@@ -19,7 +17,7 @@ const Contact = () => {
                 <a href="https://github.com/SkylerCStevens" target="_blank"><img className="icon github" src="https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/github-square-social-media-512.png" alt="GitHub icon"></img></a>
                 <a href="https://www.linkedin.com/in/skyler-stevens-789115195/" target="_blank"><img className="icon" src="https://cdn0.iconfinder.com/data/icons/global-top-brands/430/linkedin-logo-1-512.png" alt="LinkedIn icon"></img></a>
             </div>
-            <form name="contact" onSubmit={handleSubmit(onSubmit)} method="POST" className="contact-form column-right" noValidate>
+            <form name="contact" method="POST" className="contact-form column-right" noValidate>
                 <div>
                 <label className="form-label" htmlFor="user_name">NAME</label>
                 <input className="form-control" name="name" id="user_name" placeholder="Name" ref={register({ required: true, minLength: 2, maxLength: 100 })} required></input>
