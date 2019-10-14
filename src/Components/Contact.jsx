@@ -10,8 +10,8 @@ const Contact = () => {
                 <span className="contact-name">SKYLER STEVENS</span>
                 <address>Charlotte, North Carolina</address>
                 <p className="contact-p">Have any questions? Want to work together? Let's talk!</p>
-                <a href="https://github.com/SkylerCStevens" target="_blank"><img className="icon github" src="https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/github-square-social-media-512.png" alt="GitHub icon"></img></a>
-                <a href="https://www.linkedin.com/in/skyler-stevens-789115195/" target="_blank"><img className="icon" src="https://cdn0.iconfinder.com/data/icons/global-top-brands/430/linkedin-logo-1-512.png" alt="LinkedIn icon"></img></a>
+                <a href="https://github.com/SkylerCStevens" target="_blank" rel="noopener noreferrer"><img className="icon github" src="https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/github-square-social-media-512.png" alt="GitHub icon"></img></a>
+                <a href="https://www.linkedin.com/in/skyler-stevens-789115195/" target="_blank" rel="noopener noreferrer"><img className="icon" src="https://cdn0.iconfinder.com/data/icons/global-top-brands/430/linkedin-logo-1-512.png" alt="LinkedIn icon"></img></a>
             </div>
             <form name="contact" method="POST" className="contact-form column-right">
                 <label className="form-label" for="user_name">NAME</label>

@@ -2,7 +2,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  font-size: 16px;
+  font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
   color: #020E1C;
 }
@@ -31,16 +31,6 @@ ul{
 .btn-link:hover{
   color: rgba(179, 216, 235,0.9);
   text-decoration: none;
-}
-.column-left{
-  width:35%;
-  float: left;
-  margin-top: 10px;
-}
-.column-right{
-  width:65%;
-  float: right;
-  margin-bottom: 100px;
 }
 
 /* Home */
@@ -91,12 +81,10 @@ ul{
   top: 0;
   padding: 15px 15px 0px 15px;
   z-index: 9999;
-
 }
 .nav-name{
   padding: 5px 5px;
   display: inline;
-  font-weight: 400;
   font-size: 1.5rem;
   font-weight: bold;
   border-radius: 5%;
@@ -127,6 +115,16 @@ ul{
   width: 350px;
   height: 500px;
 }
+.column-left{
+  width:35%;
+  float: left;
+  margin-top: 10px;
+}
+.column-right{
+  width:65%;
+  float: right;
+  margin-bottom: 100px;
+}
 
 /* Portfolio */
 .portfolio{
@@ -136,6 +134,8 @@ ul{
 }
 .image-container {
   position: relative;
+  top:1em;
+  left: 2em;
 }
 .project-img {
   opacity: 1;
@@ -143,7 +143,7 @@ ul{
   backface-visibility: hidden;
   width: 500px;
   height: 350px;
-  margin: 10px 15px;
+  margin: 10px 10px;
   box-shadow: 1px 1px #B5B9C4;
 }
 .middle {
@@ -179,16 +179,13 @@ ul{
   display: inline;
   padding: 5px 15px;
 }
-.project-link-container{
-  margin: 0 auto;
-}
 .project-link{
   margin-right: 30px;
 }
 
 /* Contact */
 .contact{
-  height: 92vh;
+  height: 93vh;
   background-color: #031933;
   color: white;
   width: 100%;
@@ -233,4 +230,154 @@ footer{
 }
 .update{
   float: right;
+}
+
+@media screen and (max-width: 1024px) {
+  .about img {
+    margin-left: 0;
+  }
+  .column-right{
+    width: 60%;
+  }
+  .about img, .about p{
+    margin-top: 40px;
+  }
+  .project-img {
+    width: 400px;
+    height: 300px;
+  }
+  .contact{
+    height: 100vh;
+  }
+  .contact-name{
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+  .contact-p{
+    font-size: 1rem;
+  }
+  .contact-form{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  body{
+    font-size: 0.85rem;
+  }
+  .page-header{
+    font-size: 3rem;
+  }
+  .about, .portfolio, .contact{
+    padding-top: 95px;
+  }
+  .nav{
+    text-align: center;
+  }
+  .nav-name{
+    font-size: 1.3rem;
+  }
+  .nav-btn{
+    font-size: 1.1rem;
+  }
+  .about img{
+    width: 260px;
+    height: 330px; 
+  }
+  .home-middle{
+    padding: 200px 50px 0px 100px;
+  }
+  .name-p, .intro-p{
+    width: 95%;
+  }
+  .welcome-p{
+    padding: 15px 0px;
+  }
+  .name-p{
+    font-size: 2.8rem
+  }
+  .intro-p{
+    font-size: 1.5rem;
+  }
+  .view-more{
+    padding: 7px 10px;
+    font-size: 1.3rem;
+  }
+  .image-container {
+    left: 7em;
+  }
+  .project-img {
+    width: 500px;
+    height: 350px;
+  }
+  .contact{
+    height: 102vh;
+  }
+  .contact .column-left{
+    float: none;
+    display: block;
+  }
+  .icon{
+    width: 40px;
+    height: 40px;
+  }
+  .contact .column-right{
+    float: none;
+    display: block;
+    padding-top: 200px;
+    width: 80%;
+  }
+  .contact-content{
+    margin-top: 5vh;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .image-container {
+    left: 2em;;
+  }
+  .project-img {
+    width: 320px;
+    height: 220px;
+  }
+  .nav-list{
+    margin: 0 auto;
+  }
+  .nav-btn{
+    padding: 4px 4px;
+    font-size: 1.1rem;
+  }
+  .column-left{
+    float: none;
+    width: 100%;
+  }
+  .column-right{
+    float: none;
+    width: 100%;
+  }
+  .about img{
+    margin: 0 62px;
+  }
+  .contact{
+    height: 103vh;
+  }
+  .home-middle{
+    padding: 100px 30px 0px 70px;
+  }
+  .name-p, .intro-p{
+    width: 95%;
+  }
+  .welcome-p{
+    padding: 15px 0px;
+  }
+  .name-p{
+    font-size: 2.8rem
+  }
+  .intro-p{
+    font-size: 1.5rem;
+  }
+  .view-more{
+    padding: 7px 10px;
+    font-size: 1.3rem;
+  }
 }

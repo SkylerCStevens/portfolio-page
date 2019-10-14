@@ -23,8 +23,8 @@ const Portfolio = () => {
                         <p className="text">Number Guessing Game</p>
                         <p className="text">React</p>
                         <div className="project-link-container">
-                        <a className="project-link" href="https://github.com/SkylerCStevens/number-guessing-game" target="_blank">GitHub</a>
-                        <a className="project-link" href="https://react-number-guessing-game.netlify.com/" target="_blank">Netlify</a>
+                        <a className="project-link" href="https://github.com/SkylerCStevens/number-guessing-game" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a className="project-link" href="https://react-number-guessing-game.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a>
                         </div>
                     </div>
                     </div>
@@ -34,7 +34,7 @@ const Portfolio = () => {
                         <p className="text">Ecommerce Mock Site</p>
                         <p className="text">React, NodeJS, MySQL</p>
                         <div className="project-link-container">
-                        <a className="project-link" href="https://github.com/SkylerCStevens/ecommerce-site" target="_blank">GitHub</a>
+                        <a className="project-link" href="https://github.com/SkylerCStevens/ecommerce-site" target="_blank" rel="noopener noreferrer">GitHub</a>
                         </div>
                     </div>
                     </div>
@@ -44,8 +44,8 @@ const Portfolio = () => {
                         <p className="text">Comment Box</p>
                         <p className="text">React</p>
                         <div className="project-link-container">
-                        <a className="project-link" href="https://github.com/SkylerCStevens/comment-box/tree/master" target="_blank">GitHub</a>
-                        <a className="project-link" href="https://react-comment-box.netlify.com" target="_blank">Netlify</a>
+                        <a className="project-link" href="https://github.com/SkylerCStevens/comment-box/tree/master" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a className="project-link" href="https://react-comment-box.netlify.com" target="_blank" rel="noopener noreferrer">Netlify</a>
                         </div>
                     </div>
                     </div>
@@ -55,8 +55,8 @@ const Portfolio = () => {
                         <p className="text">Status Change App</p>
                         <p className="text">React</p>
                         <div className="project-link-container">
-                        <a className="project-link" href="https://github.com/SkylerCStevens/status-change" target="_blank">GitHub</a>
-                        <a className="project-link" href="https://react-status-change.netlify.com" target="_blank">Netlify</a>
+                        <a className="project-link" href="https://github.com/SkylerCStevens/status-change" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a className="project-link" href="https://react-status-change.netlify.com" target="_blank" rel="noopener noreferrer">Netlify</a>
                         </div>
                     </div>
                     </div>
