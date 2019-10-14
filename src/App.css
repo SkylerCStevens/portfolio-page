@@ -33,12 +33,12 @@ ul{
   text-decoration: none;
 }
 .column-left{
-  width:45%;
+  width:35%;
   float: left;
   margin-top: 10px;
 }
 .column-right{
-  width:55%;
+  width:65%;
   float: right;
   margin-bottom: 100px;
 }
@@ -117,14 +117,15 @@ ul{
 
 /* About */
 .about p{
-  line-height: 2;
+  line-height: 2.5;
 }
 .about img, .about p{
-  margin-top: 25px;
+  margin-top: 60px;
 }
-img{
-  width: 475px;
-  height: 650px;
+.about img{
+  margin-left: 20px;
+  width: 350px;
+  height: 500px;
 }
 
 /* Portfolio */
