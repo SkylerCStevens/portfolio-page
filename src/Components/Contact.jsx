@@ -5,7 +5,7 @@ import useForm from "react-hook-form";
 const Contact = () => {
     const { register, handleSubmit, errors, reset } = useForm();
 
-    const onSubmit = data => { reset()}
+    const onSubmit = () => { console.log("Thank you")}
 
     return (
         <div className="contact" id="contact">
