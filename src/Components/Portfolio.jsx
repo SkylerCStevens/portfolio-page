@@ -7,7 +7,7 @@ class Portfolio extends Component {
         projects: Projects
     }
 
-    handleButton = (e) => {
+    handlep = (e) => {
         
     }
 
@@ -17,7 +17,14 @@ class Portfolio extends Component {
     return (
         <div className="portfolio mb-5" id="portfolio">
             <div className="container">
-            <h2 className="page-header">PROJECTS</h2> 
+            <h2 className="page-header">PROJECTS</h2>
+            <ul className="tech-list text-center">
+                <p value="HTML" className="btn btn-link tech-filter">HTML</p>
+                <p value="JavaScript" className="btn btn-link tech-filter">JavaScript</p>
+                <p value="ReactJS" className="btn btn-link tech-filter">ReactJS</p>
+                <p value="MySQL" className="btn btn-link tech-filter">MySQL</p>
+                <p value="NodeJS" className="btn btn-link tech-filter">NodeJS</p>
+            </ul>
             <div className="row">
             {projects.map(project => (
                 <div className="image-row">
