@@ -31,13 +31,13 @@
         "languages": ["HTML", "JavaScript"],
         "github": "https://github.com/SkylerCStevens/musical-keyboard/tree/master",
         "netlify":"https://musical-keyboard-js.netlify.com/",
-        "image": "../images/music.png"
+        "image": "https://github.com/SkylerCStevens/portfolio-page/blob/master/src/images/music.png?raw=true"
     },
     {
         "name": "Calculator",
         "languages": ["HTML", "JavaScript"],
         "github": "https://github.com/SkylerCStevens/js-calculator",
         "netlify":"https://js-calculate.netlify.com",
-        "image": "../images/calculator.png"
+        "image": "https://github.com/SkylerCStevens/portfolio-page/blob/master/src/images/calculator.png?raw=true"
     }
 ]

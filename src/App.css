@@ -168,6 +168,9 @@ ul{
   font-size: 16px;
   padding: 16px 32px;
 }
+.image-row{
+  padding-bottom: 10px;
+}
 .tech-list{
   margin-top: 50px;
 }
