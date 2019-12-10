@@ -13,6 +13,13 @@
         "image": "music.png"
     },
     {
+        "name": "Calculator",
+        "languages": ["HTML", "JavaScript"],
+        "github": "https://github.com/SkylerCStevens/js-calculator",
+        "netlify":"https://js-calculate.netlify.com",
+        "image": "calculate.png"
+    },
+    {
           "name": "Number Guessing Game",
           "languages": ["React"],
           "github": "https://github.com/SkylerCStevens/number-guessing-game",
@@ -45,12 +52,5 @@
         "github": "https://github.com/SkylerCStevens/status-change",
         "netlify":"https://react-status-change.netlify.com",
         "image": "status.png"
-    },
-    {
-        "name": "Calculator",
-        "languages": ["HTML", "JavaScript"],
-        "github": "https://github.com/SkylerCStevens/js-calculator",
-        "netlify":"https://js-calculate.netlify.com",
-        "image": "calculate.png"
     }
 ]
