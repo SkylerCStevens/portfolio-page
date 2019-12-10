@@ -51,6 +51,6 @@
         "languages": ["HTML", "JavaScript"],
         "github": "https://github.com/SkylerCStevens/js-calculator",
         "netlify":"https://js-calculate.netlify.com",
-        "image": "calculator.png"
+        "image": "calculate.png"
     }
 ]
