@@ -76,6 +76,7 @@ ul{
 
 /* Nav */
 .nav{
+  width: 100%;
   background-color: rgba(179, 216, 235,0.9);
   position: sticky;
   top: 0;
@@ -83,11 +84,10 @@ ul{
   z-index: 9999;
 }
 .nav-name{
-  padding: 5px 5px;
+  padding: 5px 2px 5px 5px;
   display: inline;
   font-size: 1.5rem;
   font-weight: bold;
-  border-radius: 5%;
 }
 .nav-btn{
   display: inline;
@@ -106,31 +106,32 @@ ul{
 /* About */
 .about p{
   line-height: 2.5;
+  font-size: 1.1rem;
 }
-.about img, .about p{
+.about img, .upper-p{
   margin-top: 60px;
 }
 .about img{
-  margin-left: 20px;
-  width: 350px;
-  height: 500px;
-}
-.column-left{
-  width:35%;
   float: left;
-  margin-top: 10px;
+  margin: 62px 20px 0 0px;
+  width: 230px;
+  height: 290px;
+  border-radius: 5%;
 }
-.column-right{
-  width:65%;
-  float: right;
-  margin-bottom: 100px;
+.about{
+  margin: 60px 0px 100px 0px;
+  width: 60%;
+  margin-left: 20%;
+}
+.lower-p{
+  margin: 10px 0px 10px 0px;
 }
 
 /* Portfolio */
 .portfolio{
-  clear: both;
   background-color: rgb(245, 255, 255);
   width: 100%;
+  padding-bottom: 100px;
 }
 .image-container {
   position: relative;
@@ -175,8 +176,8 @@ ul{
   margin-top: 50px;
 }
 .tech-list li{
-  display: inline;
-  padding: 5px 15px;
+  display: inline-block;
+  padding: 5px 10px;
 }
 .project-link{
   margin-right: 30px;
@@ -231,12 +232,9 @@ footer{
   float: right;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   .about img {
     margin-left: 0;
-  }
-  .column-right{
-    width: 60%;
   }
   .about img, .about p{
     margin-top: 40px;
@@ -275,13 +273,20 @@ footer{
   }
   .nav-name{
     font-size: 1.3rem;
+    margin: 2px 2px 2px 0px;
   }
   .nav-btn{
     font-size: 1.1rem;
   }
+  .about{
+    width: 70%;
+    margin-left: 15%;
+  }
   .about img{
     width: 260px;
-    height: 330px; 
+    height: 330px;
+    float: none;
+    margin-left: 20%;
   }
   .home-middle{
     padding: 200px 50px 0px 100px;
@@ -310,7 +315,10 @@ footer{
     height: 350px;
   }
   .contact{
-    height: 102vh;
+    height: 115vh;
+  }
+  .portfolio{
+    padding-bottom: 150px;
   }
   .contact .column-left{
     float: none;
@@ -327,41 +335,47 @@ footer{
     width: 80%;
   }
   .contact-content{
-    margin-top: 5vh;
+    margin: 5vh 0;
   }
 }
 
 @media screen and (max-width: 425px){
+  .page-header{
+    font-size: 2.5rem;
+  }
   .image-container {
-    left: 2em;;
+    left: 2em;
   }
   .project-img {
-    width: 320px;
-    height: 220px;
-  }
-  .nav-list{
-    margin: 0 auto;
+    width: 275px;
+    height: 185px;
+    margin-left: 17%;
   }
   .nav-btn{
     padding: 4px 4px;
     font-size: 1.1rem;
   }
-  .column-left{
-    float: none;
-    width: 100%;
+  .nav-list{
+    display: none;
   }
-  .column-right{
-    float: none;
-    width: 100%;
+  .nav-name{
+    text-align: center;
+  }
+  .about{
+    width: 90%;
+    margin-left: 5%;
   }
   .about img{
-    margin: 0 62px;
+    margin: 10px 0px 10px 15%;
+    width: 215px;
+    height: 275px;
   }
   .contact{
-    height: 103vh;
+    height: 104vh;
+    padding: 8vh 0;
   }
   .home-middle{
-    padding: 100px 30px 0px 70px;
+    padding: 60px 10px 0px 50px;
   }
   .name-p, .intro-p{
     width: 95%;
@@ -378,5 +392,13 @@ footer{
   .view-more{
     padding: 7px 10px;
     font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .project-img {
+    width: 235px;
+    height: 175px;
+    margin-left: 17%;
   }
 }

@@ -1,43 +1,56 @@
 [
     {
-          "name": "Number Guessing Game",
-          "languages": ["React"],
-          "github": "https://github.com/SkylerCStevens/number-guessing-game",
-          "netlify":"https://react-number-guessing-game.netlify.com/",
-          "image": "https://github.com/SkylerCStevens/portfolio-page/blob/master/src/images/guessing-game.png?raw=true"
-      },
-      {
-        "name": "E-commerce Site Phase IV",
-        "languages": ["React", "NodeJS", "MySQL"],
-        "github": "https://github.com/SkylerCStevens/ecommerce-site",
-        "image": "https://github.com/SkylerCStevens/portfolio-page/blob/master/src/images/ecommerce.png?raw=true"
-    },
-    {
-        "name": "Comment Box",
-        "languages": ["React"],
-        "github": "https://github.com/SkylerCStevens/comment-box/tree/master",
-        "netlify":"https://react-comment-box.netlify.com",
-        "image": "https://github.com/SkylerCStevens/portfolio-page/blob/master/src/images/comment-box.png?raw=true"
-    },
-    {
-        "name": "Status Change",
-        "languages": ["React"],
-        "github": "https://github.com/SkylerCStevens/status-change",
-        "netlify":"https://react-status-change.netlify.com",
-        "image": "https://github.com/SkylerCStevens/portfolio-page/blob/master/src/images/status.png?raw=true"
+        "name": "Visit Vicenza",
+        "languages": ["HTML"],
+        "codepen": "https://codepen.io/SkyeBlue/project/editor/ABQpRB",
+        "image": "vicenza.png"
     },
     {
         "name": "Musical Keyboard",
         "languages": ["HTML", "JavaScript"],
         "github": "https://github.com/SkylerCStevens/musical-keyboard/tree/master",
         "netlify":"https://musical-keyboard-js.netlify.com/",
-        "image": "https://github.com/SkylerCStevens/portfolio-page/blob/master/src/images/music.png?raw=true"
+        "image": "music.png"
+    },
+    {
+          "name": "Number Guessing Game",
+          "languages": ["React"],
+          "github": "https://github.com/SkylerCStevens/number-guessing-game",
+          "netlify":"https://react-number-guessing-game.netlify.com/",
+          "image": "guessing-game.png"
+      },
+      {
+        "name": "E-commerce Site Phase IV",
+        "languages": ["React", "Node", "MySQL"],
+        "github": "https://github.com/SkylerCStevens/ecommerce-site",
+        "image": "ecommerce.png"
+    },
+    {
+        "name": "Ecommerce PWA",
+        "languages": ["React", "Node", "MongoDB"],
+        "github": "https://github.com/SkylerCStevens/hummingbird-ecommerce-pwa",
+        "heroku": "https://hummingbird-guitar.herokuapp.com/",
+        "image": "pwa.png"
+    },
+    {
+        "name": "Comment Box",
+        "languages": ["React"],
+        "github": "https://github.com/SkylerCStevens/comment-box/tree/master",
+        "netlify":"https://react-comment-box.netlify.com",
+        "image": "comment-box.png"
+    },
+    {
+        "name": "Status Change",
+        "languages": ["React"],
+        "github": "https://github.com/SkylerCStevens/status-change",
+        "netlify":"https://react-status-change.netlify.com",
+        "image": "status.png"
     },
     {
         "name": "Calculator",
         "languages": ["HTML", "JavaScript"],
         "github": "https://github.com/SkylerCStevens/js-calculator",
         "netlify":"https://js-calculate.netlify.com",
-        "image": "https://github.com/SkylerCStevens/portfolio-page/blob/master/src/images/calculator.png?raw=true"
+        "image": "calculator.png"
     }
 ]
