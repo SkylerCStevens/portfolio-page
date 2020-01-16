@@ -41,10 +41,13 @@ class Portfolio extends Component {
                                 <div>{language}</div>
                             ))}</p>
                             <div className="project-link-container">
-                            {project.github ? <a className="project-link" href={project.github} target="_blank" rel="noopener noreferrer">Github</a> : "" }
-                            {project.netlify ? <a className="project-link" href={project.netlify} target="_blank" rel="noopener noreferrer">Netlify</a> : "" }
-                            {project.codepen ? <a className="project-link" href={project.codepen} target="_blank" rel="noopener noreferrer">Codepen</a> : "" }
-                            {project.heroku ? <a className="project-link" href={project.heroku} target="_blank" rel="noopener noreferrer">Heroku</a> : "" }
+                            {project.github ? <a className="project-link link-btn btn" href={project.github} target="_blank" rel="noopener noreferrer">Github</a> : "" }
+                            {project.netlify ? <a className="project-link link-btn btn" href={project.netlify} target="_blank" rel="noopener noreferrer">Netlify</a> : "" }
+                            {project.codepen ? <a className="project-link link-btn btn" href={project.codepen} target="_blank" rel="noopener noreferrer">Codepen</a> : "" }
+                            {project.heroku ? <a className="project-link link-btn btn" href={project.heroku} target="_blank" rel="noopener noreferrer">Heroku</a> : "" }
+                            </div>
+                            <div className="text project-description">
+                            <span>{project.description}</span>
                             </div>
                         </div>
                         </div>

@@ -3,54 +3,76 @@
         "name": "Visit Vicenza",
         "languages": ["HTML"],
         "codepen": "https://codepen.io/SkyeBlue/project/editor/ABQpRB",
-        "image": "vicenza.png"
+        "image": "vicenza.png",
+        "description": "My first coding project. I made a website about the region of Italy I grew up in."
     },
     {
         "name": "Musical Keyboard",
         "languages": ["HTML", "JavaScript"],
         "github": "https://github.com/SkylerCStevens/musical-keyboard/tree/master",
         "netlify":"https://musical-keyboard-js.netlify.com/",
-        "image": "music.png"
+        "image": "music.png",
+        "description": "A fun project to bring together my love for music and software development."
     },
     {
         "name": "Calculator",
         "languages": ["HTML", "JavaScript"],
         "github": "https://github.com/SkylerCStevens/js-calculator",
         "netlify":"https://js-calculate.netlify.com",
-        "image": "calculate.png"
+        "image": "calculate.png",
+        "description": "A quick javascript project using user prompts."
     },
     {
-          "name": "Number Guessing Game",
-          "languages": ["React"],
-          "github": "https://github.com/SkylerCStevens/number-guessing-game",
-          "netlify":"https://react-number-guessing-game.netlify.com/",
-          "image": "guessing-game.png"
-      },
-      {
+        "name": "Number Guessing Game",
+        "languages": ["React"],
+        "github": "https://github.com/SkylerCStevens/number-guessing-game",
+        "netlify":"https://react-number-guessing-game.netlify.com/",
+        "image": "guessing-game.png",
+        "description": "A fun number guessing game with three levels."
+    },
+    {
+        "name": "Starcatcher",
+        "languages": ["React", "Node", "MongoDB"],
+        "github": "https://github.com/SkylerCStevens/hackNC",
+        "image": "starcatcher.png",
+        "description": "An app created during my first hackathon."
+    },
+    {
         "name": "E-commerce Site Phase IV",
         "languages": ["React", "Node", "MySQL"],
         "github": "https://github.com/SkylerCStevens/ecommerce-site",
-        "image": "ecommerce.png"
+        "image": "ecommerce.png",
+        "description": "An ecommerce website for my (fake) guitar company."
     },
     {
         "name": "Ecommerce PWA",
         "languages": ["React", "Node", "MongoDB"],
         "github": "https://github.com/SkylerCStevens/hummingbird-ecommerce-pwa",
         "heroku": "https://hummingbird-guitar.herokuapp.com/",
-        "image": "pwa.png"
+        "image": "pwa.png",
+        "description": "Another reiteration of my ecommerce site. This time downloadable to your phone!"
     },
     {
         "name": "Comment Box",
         "languages": ["React"],
         "github": "https://github.com/SkylerCStevens/comment-box/tree/master",
         "netlify":"https://react-comment-box.netlify.com",
-        "image": "comment-box.png"
+        "image": "comment-box.png",
+        "description": "App that allows you to comment and add replies."
     },
     {
         "name": "Status Change",
         "languages": ["React"],
         "github": "https://github.com/SkylerCStevens/status-change",
         "netlify":"https://react-status-change.netlify.com",
-        "image": "status.png"
+        "image": "status.png",
+        "description": "A little app to keep track of who has been called for the day."
+    },
+    {
+        "name": "Hired Up",
+        "languages": ["React", "Node", "MongoDB"],
+        "github": "https://github.com/SkylerCStevens/Fix-Fifty-App",
+        "image": "hired-up.png",
+        "description": "This app placed in the semi-finals of the FixFifty Hackathon."
     }
 ]

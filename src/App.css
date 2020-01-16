@@ -142,10 +142,11 @@ ul{
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
-  width: 500px;
-  height: 350px;
+  width: 550px;
+  height: 430px;
   margin: 10px 10px;
   box-shadow: 1px 1px #B5B9C4;
+  border-radius: 5%;
 }
 .middle {
   transition: .5s ease;
@@ -156,6 +157,7 @@ ul{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  border-radius: 5%;
 }
 .image-container:hover .project-img {
   opacity: 0.3;
@@ -181,6 +183,19 @@ ul{
 }
 .project-link{
   margin-right: 30px;
+}
+.project-description{
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+.link-btn{
+  background-color: rgb(212, 233, 240);
+}
+.link-btn:hover{
+  background-color: rgb(161, 202, 216);
+}
+.link-btn:active{
+  background-color: rgb(93, 165, 189);
 }
 
 /* Contact */
